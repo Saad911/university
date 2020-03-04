@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+<!-- 
+        <record id="group_manager" model="res.groups">
+            <field name="name">OpenAcademy / Manager</field>
+        </record> -->
+<!-- 	<record id="only_responsible_can_modify" model="ir.rule">
+            <field name="name"></field>
+            <field name="model_id" ref="model_university_university"/>
+            <field name="groups" eval="[(4, ref('university.group_manager'))]"/>
+            <field name="perm_read" eval="1"/>
+            <field name="perm_write" eval="1"/>
+            <field name="perm_create" eval="1"/>
+            <field name="perm_unlink" eval="1"/>
+            <field name="domain_force">
+            access_university_university,university university,model_university_university,,1,1,1,1
+            access_university_classrom,university classroom,model_university_classrom,,1,1,1,1
+            access_university_subject,university subject,model_university_subject,,1,1,1,1
+            access_university_depatment,university depatment,model_university_depatment,,1,1,1,1
+            access_university_professor,university professor,model_university_professor,,1,1,1,1
+            access_university_student,university student,model_university_student,,1,1,1,1
+
+            </field>
+        </record> -->
+
+</odoo>
